@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="192" viewBox="0 0 256 192" role="img" aria-label="KNOT woven metal ribbon symbol">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#5B5462"/>
+      <stop offset="0.22" stop-color="#F7F4ED"/>
+      <stop offset="0.43" stop-color="#9E98A8"/>
+      <stop offset="0.67" stop-color="#E9E8EF"/>
+      <stop offset="1" stop-color="#4C455A"/>
+    </linearGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#342168"/><stop offset="0.43" stop-color="#9271E3"/>
+      <stop offset="1" stop-color="#5938B5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#211E28" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M14 89 C43 89 48 136 88 135 C129 134 136 53 178 53 C209 53 214 89 242 89" stroke="#211E28" stroke-width="28"/>
+    <path d="M14 89 C43 89 48 136 88 135 C129 134 136 53 178 53 C209 53 214 89 242 89" stroke="url(#thread)" stroke-width="22"/>
+    <path d="M14 111 C49 111 50 57 91 57 C130 57 139 130 179 130 C210 130 216 111 242 111" stroke="#302B3A" stroke-width="30"/>
+    <path d="M14 111 C49 111 50 57 91 57 C130 57 139 130 179 130 C210 130 216 111 242 111" stroke="url(#metal)" stroke-width="24"/>
+    <path d="M16 103 C48 103 56 63 89 63 C121 63 145 124 178 124 C209 124 215 107 240 107" stroke="#FFFFFF" opacity=".35" stroke-width="3"/>
+  </g>
+</svg>

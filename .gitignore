@@ -1,0 +1,43 @@
+# KNOT project ignore rules
+
+# Environment files and secrets
+.env
+.env.*
+*.env
+.env.local
+.env.development
+.env.production
+credentials.json
+credentials.yaml
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# API key / token files
+*.token
+.apikey
+.api_key
+
+# macOS metadata
+.DS_Store
+._*
+
+# Dependencies
+node_modules/
+vendor/
+bower_components/
+
+# Build outputs
+build/
+dist/
+out/
+target/
+*.log
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
